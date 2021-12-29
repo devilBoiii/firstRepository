@@ -1,0 +1,20 @@
+body{
+	background: url('https://webdesignerwall.com/wp-content/uploads/2008/01/luffy-minimalist-one-piece-wallpaper-21947.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	color:white;
+}
+form{
+	display: inline-block;
+}
+input{
+	border-radius:20px;
+	background:blue;
+	color:black;
+	text-align: justify;
+	font-size: 1.8em;
+}
+input:hover{
+	color:black;
+	background: white;
+}

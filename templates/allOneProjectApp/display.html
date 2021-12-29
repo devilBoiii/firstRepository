@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+<head>
+	<title>Django-forms</title>
+	<link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+	<h1>Fill up the forms and i will store it in my Database</h1>
+	<form method='POST'>
+		{{ form.as_p }}
+		{% csrf_token %}
+		<input type="submit" name="submit">
+	</form>	
+</body>
+</html>
